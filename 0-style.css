@@ -1,0 +1,144 @@
+/*全ページ共通*/
+.all{
+    width: 1400px;
+    background-color: #FFCCFF;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.service{
+    color: blue;
+    font-size: 70px;
+    font-weight: bold;
+    background-color: #FFFFCC;
+    text-align: center;
+    white-space: pre;
+}
+
+ul#menu {
+	width:1400px; height:100px;
+}
+
+#menu li{
+    list-style-type:none;
+    display:inline;	
+    float:left;
+}
+
+#menu li a {
+	display:block;			
+	width:300px; height:50px;
+	background-color:navy;
+	color:#ffffff;
+	padding:15px 0px 0px 0px;
+	text-align:center;
+	text-decoration:none;
+}
+
+#menu li a:hover {
+	background-color:#000066;
+}
+
+.form{
+    font-size: 30px;
+    text-align: start;
+}
+
+.textbox{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-align: start;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*index*/
+.content{
+    width: 1150px; height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.user{
+    width: 1150px; height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*mypage*/
+.info{
+    width: 1150px; height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.info_p{
+    font-size: 30px;
+    text-align: start;
+}
+
+.myroom{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*top*/
+.greeting{
+    width: 1150px; height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dinner{
+    width: 1150px; height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.keyword{
+    width: 1150px; height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*keyword,search*/
+.result{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review{
+    width: 1150px; height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFCC;
+}
+
+textarea {
+    resize: none;
+    font-size: 20px;
+    text-align: start;
+    width: 800px;
+    height: 200px;
+}
+
+.search{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
